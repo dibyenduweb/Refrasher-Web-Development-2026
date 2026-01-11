@@ -1,3 +1,69 @@
+/* this example of type of css */
 #ext{
     color: chocolate;
+}
+/* this example of type of css */
+
+p{
+    color: chartreuse;
+}
+.p1{
+    color: red;
+}
+#p2{
+    color:yellow;
+}
+
+/* 
+color in css 
+RGB
+RGBA
+HEX
+HSL
+HSLA
+*/
+
+/* RGB
+COLOR VALUE BETWEEN 0 AND 255
+#BLACK:rgb(0,0,0),
+#WHITE:rgb(255,255,255),
+#RED:rgb(255,0,0),
+#GREEN:rgb(0,255,0),
+#BLUE:rgb(0,0,255),
+
+*/
+/* background */
+
+#background{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROgSguUi53rt1yRhgSinh8WASbvAFgHmqCEQ&s");
+    background-repeat: no-repeat;
+    background-position: 5% 10%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+/* border */
+#border{
+    border-style: solid;
+    border-style: dotted;
+    border-style: dashed;
+    border-style: double;
+    border-style: groove;
+    border-style: outset;
+    border-style: inset;
+    border-style: ridge;
+    border-style: none;
+}
+
+#border2{
+    border-style: solid dashed none dotted;
+}
+
+#border3{
+    /* border-style: solid;
+   border-width: 5px 10px 7px;
+   border-color: red yellow green yellow; */
+
+   border:5px solid green;
 }

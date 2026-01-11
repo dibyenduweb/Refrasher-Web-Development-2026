@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: darkcyan;
+    width: 60%;
+    height: 500px;
+    border-radius: 5px;
+}
+.screen{
+    background-color: aquamarine;
+    height: 50px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.num .Ac{
+    background-color: burlywood;
+    width: 50px;
+    text-align: center;
+    border: outset;
+}
+:hover .num .Ac{
+    background-color: burlywood;
+    width: 50px;
+    text-align: center;
+    border: inset;
+    
+}
